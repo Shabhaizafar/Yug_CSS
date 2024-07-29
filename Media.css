@@ -1,0 +1,67 @@
+@media screen and (min-width:1000px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    div{
+        background-color: lightgreen;
+        height: 100vh;
+        padding: 20px;
+    }
+    h1{
+        color: darkred;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 30px;
+    
+    }
+    p{
+        color: darkblue;
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 40px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+    img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:500px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    div{
+        background-color: black;
+        padding: 20px;
+    }
+    h1{
+        color: lime;
+        font-family: cursive;
+        text-align: center;
+        font-size: 42px;
+        margin-bottom: 30px;
+    
+    }
+    p{
+        color: lightseagreen;
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        line-height: 40px;
+        margin-top: 30px;
+        text-align: justify;
+    }
+    img{
+        width: 100%;
+        display: block;
+    }
+}
+
+
+https://res.cloudinary.com/practicaldev/image/fetch/s--WakwPAOn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://i.imgur.com/gGBr88K.gif
