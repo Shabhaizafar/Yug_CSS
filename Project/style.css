@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div.try{
+    display: flex;
+}
+div.try a{
+    background-color: #813117;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    padding: 17px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+/*  */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    gap: 30px;
+}
+header main.main1 img{
+    width: 25px;
+}
+header main.main2 img{
+    width: 25px;
+}
+
+header main.main3{
+    flex-grow: 1.4;
+}
+header main.main4{
+    flex-grow: 1;
+}
+header main.main5{
+    position: relative;
+}
+header main.main3 ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+header main.main3 ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+header main.main6 a{    
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+header main.main5 input{
+    border-radius: 8px;
+    padding: 5px 30px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+::placeholder{
+    color: black;
+}
+header main.main5 span{
+    position:  absolute;
+    top: calc(50% - 7.5px);
+    left: 10px;
+}
+header main.main5 span svg{
+    width: 15px;
+    height: 15px;
+}
