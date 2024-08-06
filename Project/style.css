@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+    font-family: 'Avenir';
+    src: url(/Project/avenir-next/AvenirNextCyr-Medium.ttf);
+}
 div.try{
     display: flex;
 }
@@ -21,7 +25,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 25px;
+    padding: 10px 25px 0px;
     gap: 30px;
 }
 header main.main1 img{
@@ -75,4 +79,57 @@ header main.main5 span{
 header main.main5 span svg{
     width: 15px;
     height: 15px;
+}
+/* -------- */
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav main{
+    flex-grow: 1;
+}
+nav>ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    gap: 20px;
+}
+nav>ul>li{
+    position: relative;
+}
+nav>ul>li>a{
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Avenir';
+    font-size: 13px;
+    padding:5px;
+    border-radius: 4px;
+}
+.active{
+    color: white;
+    background-color: #507d3c;
+}
+
+li>ul.Combo{
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    width: 150px;
+    padding: 20px 10px;
+    box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.568),-1px 0px 4px  rgba(128, 128, 128, 0.568);
+    border-top: 2px solid black;
+    margin-top: 5px;
+}
+li>ul.Combo>li>a{
+    display:block;
+    padding: 5px 20px;
+    margin-bottom: 8px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Avenir';
+}
+nav>ul>li:hover ul.Combo{
+    display: block;
 }
