@@ -133,3 +133,43 @@ li>ul.Combo>li>a{
 nav>ul>li:hover ul.Combo{
     display: block;
 }
+/* ---- */
+section.face-section{
+    display: grid;
+    grid-template-columns: .5fr .5fr 1fr;
+    padding: 30px 40px;
+    gap: 8%;
+    position: fixed;
+    width: 80vw;
+    height: 70vh;
+    left:  10vw;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+section.face-section aside{
+    /* background-color: cornflowerblue; */
+}
+section.face-section aside:nth-child(3){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .3fr;
+    gap: 20px;
+}
+section.face-section aside:nth-child(3) div{
+    border-radius: 16px;
+    display: grid;
+    overflow: hidden;
+}
+section.face-section aside:nth-child(3) div a{
+    display: block;
+    background-image: url("https://deyga.in/cdn/shop/files/BLB-03_900x.png?v=1713548871");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    /* transition: all 1s; */
+
+}
+section.face-section aside:nth-child(3) div a:hover{
+    transition: all 1s;
+    scale: 1.2;
+}
